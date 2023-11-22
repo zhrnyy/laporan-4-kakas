@@ -3,10 +3,10 @@
     text-align: center;
     padding: 20px;
 }
-img {
+.container img {
     border-radius: 20px;
 }
-img:hover {
+.container img:hover {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 ul {
@@ -35,4 +35,20 @@ ul {
   
   .active {
     background-color: rgb(255, 195, 121);
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
   }
